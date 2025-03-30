@@ -1,0 +1,43 @@
+.card-body {
+    background-color: rgb(246, 241, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+
+}
+
+.card-text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.trailer-btn {
+    margin-top: auto; 
+}
+.content {
+    justify-content: center;
+}
+.card{
+    margin: 15px;
+    padding: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+h1 {
+    color: #333;
+}
+img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+p {
+    color: #555;
+    font-size: 16px;
+}
