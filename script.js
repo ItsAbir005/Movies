@@ -51,8 +51,8 @@ async function getMovies(page) {
 
             const newPageContent = `
                 <!DOCTYPE html>
-<html lang="en">
-<head>
+                <html lang="en">
+                <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title}</title>
@@ -68,8 +68,8 @@ async function getMovies(page) {
         }
         .container {
             display: flex;
-            width: 100%;
-            height: 100vh;
+            width: 90%;
+            height: 90vh;
             background: white;
             padding: 40px;
             border-radius: 10px;
