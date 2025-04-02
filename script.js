@@ -3,11 +3,7 @@ let pageSize = 10;
 
 async function getMovies(page) {
     const options = {
-        method: 'GET',
-        headers: {
-            accept: 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MWEyMmQzMjk4ZGQ0ZTViMmZkMmVkMzc5MGYzN2JkNCIsIm5iZiI6MTc0MzE2MzA2My40LCJzdWIiOiI2N2U2OGViNzMzYTc0MzQxZTMxMGVlZGMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.8V4PeM0WCojsdqgZuAC_6MO81RdQSj4XiJvzX51E0aI'
-        }
+        method: 'GET'
     };
 
     const response = await fetch(`https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`, options);
